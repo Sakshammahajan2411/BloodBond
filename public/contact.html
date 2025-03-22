@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - BloodBond</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar">
+      <div class="logo">
+        <h1>BloodBond</h1>
+      </div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="find-donor.html">Find Donor</a>
+        <a href="donate.html">Donate Now</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+        <button id="themeToggle" class="theme-toggle">
+          <i class="fas fa-moon"></i>
+        </button>
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <main class="page-content">
+      <h1>Contact Us</h1>
+      <p class="subtitle">We're here to help with any questions or concerns</p>
+
+      <div class="contact-section">
+        <div class="glass-card contact-form-card">
+          <h2>Send Us a Message</h2>
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="contactName">Your Name</label>
+              <input type="text" id="contactName" name="contactName" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="contactEmail">Email Address</label>
+              <input type="email" id="contactEmail" name="contactEmail" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="contactSubject">Subject</label>
+              <input type="text" id="contactSubject" name="contactSubject" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="contactMessage">Message</label>
+              <textarea id="contactMessage" name="contactMessage" rows="5" required></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+
+        <div class="contact-info">
+          <div class="glass-card info-card">
+            <h2>Contact Information</h2>
+            
+            <div class="contact-methods">
+              <div class="contact-method">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>123 ABC<br>Bhubaneswar, Odisha</p>
+                </div>
+              </div>
+              
+              <div class="contact-method">
+                <i class="fas fa-phone"></i>
+                <div>
+                  <h3>Phone</h3>
+                  <p>+91 1234567890</p>
+                  <p>Emergency: +91 0987654321</p>
+                </div>
+              </div>
+              
+              <div class="contact-method">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <h3>Email</h3>
+                  <p><a href="/cdn-cgi/l/e-mail" class="__cf_email__" data-cfemail="30595e565f705c595655525c5f5f541e5f4257">[email&#160;protected]</a></p>
+                  <p><a href="/cdn-cgi/l/e-mail" class="__cf_email__" data-cfemail="01727471716e7375416d686764636d6e6e652f6e7366">[email&#160;protected]</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="glass-card hours-card">
+            <h2>Operating Hours</h2>
+            <div class="hours-list">
+              <div class="hours-item">
+                <span class="day">Monday - Friday:</span>
+                <span class="time">8:00 AM - 8:00 PM</span>
+              </div>
+              <div class="hours-item">
+                <span class="day">Saturday:</span>
+                <span class="time">9:00 AM - 5:00 PM</span>
+              </div>
+              <div class="hours-item">
+                <span class="day">Sunday:</span>
+                <span class="time">10:00 AM - 3:00 PM</span>
+              </div>
+            </div>
+            <p class="emergency-note">For emergencies, our hotline is available 24/7.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 BloodBond. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <div id="messageModal" class="modal">
+    <div class="modal-content glass-card">
+      <span class="close">&times;</span>
+      <i class="fas fa-check-circle success-icon"></i>
+      <h2>Thank You!</h2>
+      <p>Your message has been sent successfully. We'll get back to you as soon as possible.</p>
+      <button class="btn btn-primary modal-btn">Back to Home</button>
+    </div>
+  </div>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="script.js"></script>
+</body>
+</html>
+
