@@ -14,7 +14,7 @@ Bloodbond is a **Node.js-powered web app** designed to connect blood donors with
 ### 🛠️ **Tech Stack**
 - **Backend:** Node.js, Express.js  
 - **Frontend:** HTML, CSS, JavaScript  
-- **Database:** [Specify database: e.g., MongoDB, MySQL]  
+- **Database:** MongoDB  
 - **Environment:** dotenv  
 
 ---
